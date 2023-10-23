@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Bienvenue sur la page d'accueil d'Arthur Manceau, développeur web. Explorez mon site web et découvrez mes compétences et réalisations en matière de développement web. Utilisez la barre de navigation pour accéder à mes différentes pages, y compris mon profil, mes réalisations, et plus encore.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="max-age=31536000">
+    <link rel="stylesheet" href="assets/style.css">
+    <!-- <link rel="manifest" href="manifest.json"> -->
+    <title>Arthur Manceau</title>
+    <link rel="shortcut icon" href="assets/imgs/others/Spaceship.webp" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body class="backgroundBody">
+    <div class="container" id="home">
+
+        <header id="home">
+            <div class="hamburger-menu">
+				<input id="menu__toggle" type="checkbox" aria-label="Ouvrir le menu"/>
+	
+				<label class="menu__btn" for="menu__toggle">
+				  <span class="menu__btn-span"></span>
+				</label>
+			
+				<ul class="menu__box">
+                    <li><img class="imgProfilMobile" src="assets/imgs/others/arthur.webp" alt="photo de profil" width="50" height="50"></li>    
+                    <li><a class="menu__item" href="home.html">Home</a></li>
+                    <li><a class="menu__item" href="comingSoon.html">About</a></li>
+                    <li><a class="menu__item" href="projects.html">Projects</a></li>
+				</ul>
+			</div>
+
+            <div class="divImgProfil">
+                <img class="imgProfil zoom" src="assets/imgs/others/arthur.webp" alt="photo de profil" width="50" height="50">
+            </div>
+                
+            <nav>
+                <div class="ul">
+                    <a class="active" href="home.html">
+                        <div class="li">HOME</div>
+                    </a>
+                </div>
+
+                <div class="ul">
+                    <a class="" href="comingSoon.html">
+                        <div class="li">ABOUT</div>
+                    </a>
+                </div>
+
+                <div class="ul">
+                    <a class="" href="projects.html">
+                        <div class="li">PROJECTS</div>
+                    </a>
+                </div>
+            </nav>
+
+            <div class="divClockSwitch">
+                <div>
+                    <i class="btn fas fa-moon zoom"></i>
+                </div>
+                
+                <div id="MyClockDisplay" class="clock zoom" onload="showTime()"></div>
+
+            </div>
+        </header>
+
+        <main id="home">
+            <section class="main-img">
+				<img class="imgProfilMobile" src="assets/imgs/others/arthur.webp" alt="Profil" width="150" height="150" >
+			</section>
+            <h1>
+                <span class="reveal">Hello, I'm <span class="title1">ARTHUR MANCEAU</span></span> 
+            </h1>
+    
+            <h2>
+                <span class="reveal">French IT Student</span>
+            </h2>
+        </main>
+
+        <footer id="home">
+            <div>
+                <a href="https://github.com/armanceau" target="_blank"><img class="imgContact" src="assets/imgs/icons/icons-dark/github.png" alt="Profil github"></a>
+            </div>
+
+            <div>
+                <a href="https://dribbble.com/arrthur" target="_blank"><img class="imgContact" src="assets/imgs/icons/icons-dark/dribbble.png" alt="Profil dribble"></a>
+            </div>
+
+            <div>
+                <a href="mailto:arthur.manceau1@outlook.fr" target="_blank"><img class="imgContact" src="assets/imgs/icons/icons-dark/mail.png" alt="Adresse mail"></a>
+            </div>
+
+            <div>
+                <a href="https://www.linkedin.com/in/arthur-manceau-474671230/" target="_blank"><img class="imgContact" src="assets/imgs/icons/icons-dark/linkedin.png" alt="Profil Linkedin"></a>
+            </div>
+
+            <div>
+                <a href="https://fr.fiverr.com/s/dbb6y2" target="_blank"><img class="imgContact" src="assets/imgs/icons/icons-dark/fiverr.png" alt="Profil fiverr"></a>
+            </div>
+        </footer>
+      
+        
+        <img class="imgParallax" id="imgCg" src="assets/imgs/others/cg.webp" alt="Carte graphique">
+
+        <img class="imgParallax" id="imgScience" src="assets/imgs/others/science.webp" alt="science">
+    </div>
+</body>
+<script src="assets/script.js"></script>
+</html>
