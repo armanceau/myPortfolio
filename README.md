@@ -4,7 +4,7 @@ Bienvenue sur mon portfolio en ligne ! Ce site a été créé pour présenter mo
 
 ## À propos de moi 💭
 
-Je m'appelle Arthur. Je suis étudiant en développement d'application, et j'ai une solide expérience dansdans le domaine du web.
+Je m'appelle Arthur. Je suis étudiant en développement web et application, et j'ai une solide expérience dansdans le domaine du web.
 
 ## Contenu 📄
 
